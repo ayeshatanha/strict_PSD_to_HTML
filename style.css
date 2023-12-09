@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f6f9f9;
+}
+.header_wrapper {
+    width: 80%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+padding-top: 20px;
+}
+
+nav {
+    
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.Banner{
+    position: relative;
+}
+
+.Banner img{
+    width: 100%;
+}
+
+.Banner_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Banner_content h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.Banner_content span{
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: aqua;
+    margin-top: 15px;
+}
+
+.Banner_content p{
+
+margin-top: 15px;
+
+color: white;
+
+font-size: 18px;
+}
+
+.Banner_content button{
+
+background: transparent;
+
+border: none;
+
+color: white;
+
+border: 1px solid aqua;
+
+padding: 12px 25px;
+
+font-size: 18px;
+
+margin-top: 25px;
+
+transition: .4s all ease-in-out;
+
+}
+
+.Banner_content button:hover{
+
+background-color: aqua;
+
+}
+
+.about{
+
+    background-color: #f9f9f9;
+    
+    /* margin-top: 80px; */
+    }
+    
+    .about_wrapper{
+    
+    text-align: center;
+    
+    width: 80%;
+    
+    margin: auto;
+    
+    padding-top: 80px;
+    
+    padding-bottom: 80px;
+    }
+    
+    .about h1{
+    
+    font-size: 33px;
+    
+    margin-bottom: 30px;
+    
+    color: #565353;
+    }
+    
+    .about p{
+    
+    font-size: 18px;
+    }
+
+    .feature{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+justify-content: space-between;
+
+padding-top: 80px;
+
+padding-bottom: 80px;
+
+/* padding-right: 30px; */
+
+/* padding-left: 30px; */
+
+}
+
+.feature_wrapper{
+
+    width: 80%;
+
+    margin: auto;
+
+    padding-right: 30px;
+
+}
+
+.feature_icon{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,3690f0+46,3690f0+46,54a3ee+47,54a3ee+47,54a3ee+47,3690f0+100,1e69de+100 */
+    background: linear-gradient(to right,  #6db3f2 0%,#3690f0 46%,#3690f0 46%,#54a3ee 47%,#54a3ee 47%,#54a3ee 47%,#3690f0 100%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+
+ .feature_wrapper h1{
+
+    margin-bottom: 20px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    }
+        
+    .feature_wrapper p{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+        padding-left: 50px;
+    }
+
+    .work_section{
+
+background: #F9F9F9;
+
+padding-top: 60px;
+
+padding-bottom: 60px;
+
+}
+
+    .heading{
+
+text-align: center;
+
+margin-bottom: 50px;
+
+}
+
+    .heading h1{
+        
+font-size: 38px;
+        
+font-family: ui-sans-serif;
+        
+margin-bottom: 15px;
+    }
+
+    .heading p{
+        
+    }
+
+    .works{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+}
+
+    .works_item{
+
+width: 32%;
+
+margin-bottom: 20px;
+
+position: relative;
+}
+
+    .works_item img{
+        
+    }
+
+    .works_item img{
+        
+    }
+
+    .works_item img{
+        
+    }
+
+    .works_item img{
+        
+    }
+
+    .works_item img{
+        
+width: 100%;
+    }
+
+    .works_item img{
+        
+width: 100%;
+
+display: block;
+    }
+
+    .works_item::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: aqua;
+        opacity: .5;
+        transition: .5s all ease-in-out;
+    }
+
+    .works_item:hover:before{
+        width: 100%;
+    }
+
+    .contact_section{
+        background-image: url(../Photos/bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .contact_section::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(5, 53, 120);
+        opacity: 0.5;
+        z-index: -1;
+
+    }
+
+    .contact_form{
+
+width: 40%;
+
+margin: auto;
+
+text-align: center;
+
+padding: 50px 50px;
+
+}
+
+    .contact_form h1{
+
+color: white;
+
+font-size: 35px;
+
+font-family: ui-sans-serif;
+
+}
+
+    .contact_form p{
+
+color: white;
+
+}
+
+    .contact_form form input{
+
+background: transparent;
+
+width: 95%;
+
+border: none;
+
+border:  1px solid white;
+
+padding: 13px 10px;
+
+margin-bottom: 5px;
+
+border-radius: 10px;
+
+}
+
+    .contact_form form textarea{
+
+background: transparent;
+
+width: 95%;
+
+border: none;
+
+border: 1px solid white;
+
+padding: 13px 10px;
+
+margin-bottom: 5px;
+
+border-radius: 10px;
+
+}
+
+    .cheakbox_part{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.contact_form form input[type="submit"]{
+    width: auto;
+    color: #f6f9f9;
+    padding: 15px 30px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+
+}
+
+    .cheakbox{
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact_form form input[type="cheakbox"]{
+        width: auto;
+        padding: 0;
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .cheakbox input{
+
+    }
+
+    .cheakbox p{
+
+    }
+
+    footer{
+
+        background: #f6f9f9;
+        
+        }
+        
+            .footer_wrapper{
+        
+        width: 80%;
+        
+        margin: auto;
+        
+        display: flex;
+        
+        justify-content: space-between;
+        
+        margin-top: 35px;
+        
+        margin-bottom: 23px;
+        
+        }
+        
+            .text{
+        
+            }
+        
+            .social{
+        
+        display: flex;
+        
+        justify-content: space-between;
+        
+        }
+        
+        .social_icon {
+            margin-left: 26px;
+            font-size: 20px;
+        }
+        
